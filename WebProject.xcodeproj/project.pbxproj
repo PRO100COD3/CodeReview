@@ -14,6 +14,8 @@
 		3CD336082C8874E700784414 /* WebProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD336072C8874E700784414 /* WebProjectTests.swift */; };
 		3CD336122C8874E700784414 /* WebProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD336112C8874E700784414 /* WebProjectUITests.swift */; };
 		3CD336142C8874E700784414 /* WebProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD336132C8874E700784414 /* WebProjectUITestsLaunchTests.swift */; };
+		3CD336222C88F0B200784414 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD336212C88F0B200784414 /* WebViewModel.swift */; };
+		3CD336242C88F0EC00784414 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD336232C88F0EC00784414 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		3CD3360D2C8874E700784414 /* WebProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD336112C8874E700784414 /* WebProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebProjectUITests.swift; sourceTree = "<group>"; };
 		3CD336132C8874E700784414 /* WebProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CD336202C88EF8C00784414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3CD336212C88F0B200784414 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		3CD336232C88F0EC00784414 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +99,13 @@
 		3CD335F52C8874E400784414 /* WebProject */ = {
 			isa = PBXGroup;
 			children = (
+				3CD336202C88EF8C00784414 /* Info.plist */,
 				3CD335F62C8874E400784414 /* WebProjectApp.swift */,
-				3CD335F82C8874E400784414 /* ContentView.swift */,
 				3CD335FA2C8874E600784414 /* Assets.xcassets */,
 				3CD335FC2C8874E600784414 /* Preview Content */,
+				3CD336212C88F0B200784414 /* WebViewModel.swift */,
+				3CD335F82C8874E400784414 /* ContentView.swift */,
+				3CD336232C88F0EC00784414 /* WebView.swift */,
 			);
 			path = WebProject;
 			sourceTree = "<group>";
@@ -258,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CD335F92C8874E400784414 /* ContentView.swift in Sources */,
+				3CD336242C88F0EC00784414 /* WebView.swift in Sources */,
+				3CD336222C88F0B200784414 /* WebViewModel.swift in Sources */,
 				3CD335F72C8874E400784414 /* WebProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +435,7 @@
 				DEVELOPMENT_TEAM = 5VR55PX3MR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +465,7 @@
 				DEVELOPMENT_TEAM = 5VR55PX3MR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
